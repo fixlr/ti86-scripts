@@ -1,0 +1,14 @@
+ClLCD
+Disp "Hello"
+Disp "Files are"
+Disp "confidential"
+Disp "Please enter the"
+Disp "User password"
+Input "PASSWORD=",PASSWORD
+If PASSWORD==******
+Then
+Goto FILES
+Else
+ZCONFIDE
+Lbl FILES
+Return
